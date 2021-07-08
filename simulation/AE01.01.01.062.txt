@@ -1,0 +1,4 @@
+Vsense=Rshunt*Iload=0.02R*5A=100mV
+Iout=Vsense*Gt=100mV*0'01=1mA
+Rc=Vout/Iout=2.5V/1mA=2.5k=2||4.99k(1%)
+Rb=((Vin_max-Vz)*hFE_min)/Iout=((30V-15V)*100)/1mA=1.5Meg(1%)
